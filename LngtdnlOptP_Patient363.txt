@@ -1,0 +1,54 @@
+# COLUMN 1-n contains the optimized parameter values for
+# each RHC timepont for the patient. It contains:
+#   Days_PTx                	% Days post transplant 
+#   HR                      	% Elastance function parameter (1/s^2)
+#   Hgt                     	% Patient height (cm)
+#   Wght                    	% Patient weight (kg)
+#   Gender                  	% Patient Gender (1-male, 2-female)
+#   E_es_lvf                	% LV free wall elastance (kPa/mL)
+#   V_d_lvf                 	% LV ES zero P volume (mL)
+#   P_0_lvf                 	% LV ED pressure param (kPa)
+#   lambda_lvf              	% LV ED pressure param (1/mL)
+#   V_0_lvf                 	% LV ED pressure param (mL)
+#   E_es_rvf                	% RV free wall elastance (kPa/mL)
+#   V_d_rvf                 	% RV ES zero P volume (mL)
+#   P_0_rvf                 	% RV ED pressure param (kPa)
+#   lambda_rvf              	% RV ED pressure param (1/mL)
+#   V_0_rvf                 	% RV ED pressure param (mL)
+#   E_es_pa                 	% Pulm artery elastance (kPa/mL)
+#   E_es_pu                 	% Pulm vein elastance (kPa/mL)
+#   R_pul                   	% Pulm vasc resistance (kPa*s/mL)
+#   P_th                    	% Mean thoracic pressure (mmHg)
+#   E_es_ao                 	% Aorta elastance (kPa/mL)
+#   E_es_vc                 	% Vena cava elastance (kPa/mL)
+#   R_sys                   	% Syst art resistance (kPa*s/mL)
+#   R_mt                    	% Mitral valve resist (kPa*s/mL)
+#   R_av                    	% Aortic valve resist (kPa*s/mL)
+#   R_tc                    	% Tricuspid vlv resist (kPa*s/mL)
+#   R_pv                    	% Pulmon vlv resist (kPa*s/mL)
+21    	41    	48    	128
+109   	91.78 	108.11	119.14
+162   	162   	162   	163
+80    	75.3  	79    	78.9
+1     	1     	1     	1
+1.1955	1.3856	1.0943	1.0953
+10    	10    	10    	10
+0.125 	0.125 	0.125 	0.125
+0.0366	0.0345	0.0354	0.0331
+12    	12    	12    	12
+0.3618	0.279 	0.2637	0.2899
+9     	9     	9     	9
+0.25  	0.25  	0.25  	0.25
+0.0304	0.0239	0.025 	0.0235
+10.8  	10.8  	10.8  	10.8
+0.2814	0.2503	0.3522	0.4975
+0.0244	0.0136	0.017 	0.0134
+0.1671	0.1636	0.2178	0.1634
+-4    	-4    	-4    	-4
+0.9596	0.9757	2.0092	0.8394
+0.0276	0.0087	0.013 	0.0068
+1.2109	1.6862	2.04  	1.5212
+0.0033	0.002 	0.0044	0.0019
+0.031 	0.0396	0.0514	0.0345
+0.002 	0.0003	0.0009	0.0003
+0.007 	0.0058	0.0084	0.0133

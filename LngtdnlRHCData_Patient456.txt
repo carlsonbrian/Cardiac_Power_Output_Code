@@ -1,0 +1,26 @@
+# COLUMN 1-n contains the RHC data for each timepoint 
+# for the patient. It contains:
+#   Prv_syst                	% Right ventricular systolic pressure (mmHg)
+#   Prv_diast               	% Right ventricular diastolic pressure (mmHg)
+#   Ppa_syst                	% Pulmonary artery systolic pressure (mmHg)
+#   Ppa_diast               	% Pulmonary artery diastolic pressure (mmHg)
+#   Ppcw                    	% Pulmonary capillary wedge pressure (mmHg)
+#   Pao_syst                	% Aortic systolic pressure (mmHg)
+#   Pao_diast               	% Aortic diastolic pressure (mmHg)
+#   CO_Fick                 	% Cardiac output by Fick (L/min)
+#	HR                      	% Heart rate (beats/min)
+#	Wght                    	% Patient weight (kg)
+#	Hgt                     	% Patient height (cm)
+#	Gender                  	% Patient gender (1-male, 2-female)
+44  	42  	39  	23  	37  	34  	30  	28
+4   	4   	2   	5   	11  	12  	4   	1
+35  	36  	33  	24  	33  	31  	24  	24
+13  	14  	14  	13  	18  	18  	13  	9
+16  	15  	13  	6   	15  	14  	9   	6
+104 	122 	128 	130 	118 	133 	110 	99
+67  	75  	88  	79  	78  	75  	74  	63
+5.2 	4.4 	4.7 	4.4 	5   	5.3 	4.9 	4.4
+90  	86  	93  	108 	93  	103 	99  	100
+77.8	77.8	75  	77.8	77.8	73  	77.8	77.4
+170 	170 	170 	170 	170 	170 	170 	170
+1   	1   	1   	1   	1   	1   	1   	1
