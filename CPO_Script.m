@@ -532,7 +532,7 @@
     
         PVLSupTtl_Hndl = ...
             suptitle(['Patient Number ' num2str(Patient_Num(i))]);
-        set(PVLSupTtl_Hndl,'FontSize',20,'FontWeight','bold')
+        set(PVLSupTtl_Hndl,'FontSize',16,'FontWeight','bold')
         
         LVVol_Max = 0;
         RVVol_Max = 0;
@@ -567,12 +567,12 @@
         ylim([PLV_Min 1.15*PLV_Max])
         LegHndlFigi_SP1 = legend(Lgnd_Strgs{:});
         set(LegHndlFigi_SP1,'Box','off','FontSize',8)
-        set(gca,'FontSize',14, ...
+        set(gca,'FontSize',15, ...
             'FontWeight','bold','Box','off')
         xlabel('LV Volume (mL)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         ylabel('LV Pressure (mmHg)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         
          % RV PV Loops
         subplot(2,1,2)
@@ -594,15 +594,15 @@
         ylim([PLV_Min 1.15*PLV_Max])
         LegHndlFigi_SP2 = legend(Lgnd_Strgs{:});
         set(LegHndlFigi_SP2,'Box','off','FontSize',8)
-        set(gca,'FontSize',14, ...
+        set(gca,'FontSize',15, ...
             'FontWeight','bold','Box','off')
         xlabel('RV Volume (mL)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         ylabel('RV Pressure (mmHg)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         
     end
-    
+    %%
     % PLOT TREND IN LV AND RV POWER OUTPUT FOR EACH PATIENT
     for i = 1:Num_Pats
         
@@ -613,7 +613,7 @@
     
         CPOSupTtl_Hndl = ...
             suptitle(['Patient Number ' num2str(Patient_Num(i))]);
-        set(CPOSupTtl_Hndl,'FontSize',20,'FontWeight','bold')
+        set(CPOSupTtl_Hndl,'FontSize',16,'FontWeight','bold')
         CPOLgnd_Strgs = cell(1,Num_RHCs(i));
         subplot(2,1,1)
         for j = 1:Num_RHCs(i)
@@ -621,7 +621,7 @@
             Days_PTx = Lngtdnl_OptimP{i}.data(1,j);
             plot(Days_PTx,LV_CPOAve, ...
                 ['o' LnColor_Str{j}], ...
-                'MarkerSize',9, ...
+                'MarkerSize',12, ...
                 'MarkerFaceColor',LnColor_Str{j}, ...
                 'MarkerEdgeColor','k')
             hold on
@@ -637,12 +637,12 @@
         LegHndlCPOFigi_SP1 = legend(CPOLgnd_Strgs{:});          % Format subplot
         set(LegHndlCPOFigi_SP1,'Box','off', ...
             'FontSize',8,'Location',LgndLoc)
-        set(gca,'FontSize',14, ...
+        set(gca,'FontSize',15, ...
             'FontWeight','bold','Box','off')
         xlabel('Days Post Transplant', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         ylabel('LV Power Output (W)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         
         subplot(2,1,2)
         for j = 1:Num_RHCs(i)
@@ -650,7 +650,7 @@
             Days_PTx = Lngtdnl_OptimP{i}.data(1,j);
             plot(Days_PTx,RV_CPOAve, ...
                 ['o' LnColor_Str{j}], ...
-                'MarkerSize',9, ...
+                'MarkerSize',12, ...
                 'MarkerFaceColor',LnColor_Str{j}, ...
                 'MarkerEdgeColor','k')
             hold on
@@ -670,12 +670,13 @@
         LegHndlCPOFigi_SP2 = legend(CPOLgnd_Strgs{:});          % Format subplot
         set(LegHndlCPOFigi_SP2,'Box','off', ...
             'FontSize',8,'Location',LgndLoc)
-        set(gca,'FontSize',14, ...
+        set(gca,'FontSize',15, ...
             'FontWeight','bold','Box','off')
         xlabel('Days Post Transplant', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
         ylabel('RV Power Output (W)', ...
-            'FontSize',18,'FontWeight','bold')
+            'FontSize',16,'FontWeight','bold')
+ 
         
     end
         
